@@ -1,0 +1,280 @@
+header
+{
+    background-image: url(../project2/css/images/header-bg.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+}
+.rounded-pill
+{
+border-radius: 45%;
+}
+.lyer
+{
+    background-color:rgba(0, 0, 0, 0.7) ;
+    height: 100%;
+    color: white;
+
+}
+.caption a
+{
+    
+    border: 2px solid white;
+    text-decoration: none;
+    border-radius:90px;
+    
+}
+.navbar-light .navbar-nav .nav-link
+{
+    color: white !important;
+}
+
+.navbar-light .navbar-brand 
+{
+    color: white !important;
+
+}
+
+ .caption a
+{
+    transition: all 1s;
+    color: white;
+}
+
+.home a:hover
+{
+    background-color: white;
+    color: black;
+}
+.icons
+{
+    left: 0px;
+    top: 60px;
+    padding: 10px;
+    background-color: black;
+    
+}
+.scroll
+{
+height: 50px;
+width: 20px;
+padding: 20px;
+border: 2px solid #fff;
+position: absolute;
+bottom: 20px;
+left: 50%;
+animation: scroll 2s infinite alternate;
+}
+.scroll::after
+{
+    content: "";
+    position: absolute;
+    bottom:12 px;
+    left: 18px;
+    width: 5px;
+    height: 10px;
+    background-color: white;
+
+}
+@keyframes scroll
+{
+    0%{bottom: 20px;}
+    25%{bottom: 40px;}
+    50%{bottom: 50px;}
+    75%{bottom:25px;}
+    100%{bottom: 30px;}
+
+}
+
+.info
+{
+    width: 40%;
+}
+.prgrf
+{
+    background-color:rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+
+
+.Portfolio 
+
+{
+    position: absolute;
+   top: 5px;
+   left: 5px;
+   bottom: 5px;
+   right: 5px;
+    background-color:rgba(255, 255, 255,0.7 );
+    transform: translatey(30px);
+    transition: transform 1s ,opacity 1s;
+    opacity: 0;
+
+}
+.Portfolio-img:hover .Portfolio
+{
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+.Portfolio h3
+{
+    transform: translateY(-100%);
+    transition: transform 1s;
+}
+
+.Portfolio-img:hover .Portfolio h3
+{
+    transform: translateY(0px);
+}
+
+
+.Portfolio.icon-prfile i
+{
+    transform: translateY(100%);
+    transition: transform 1s;
+   ;
+}
+
+
+
+.Portfolio-img:hover .Portfolio.icon-prfile
+{
+    transform: translateY(0px);
+}
+
+
+.icon-prfile i
+{
+padding: 10px;
+background-color: black;
+border-radius: 50%;
+color: white;
+transition: 1s;
+}
+
+.icon-prfile i:hover
+{
+    background-color: white;
+    color: black;
+}
+
+.ABOUT a
+{
+    background-color: transparent !important;
+    color: black !important;
+}
+
+.nav-pills .active
+{
+    
+    border-bottom: 2px solid black;
+}
+
+.img-pop
+
+{
+   order: 1;
+}
+.paer
+{
+    background-color: chartreuse;
+    width: 100%;
+    height: 1000px;
+}
+    
+.child
+{
+    width: 200px;
+    height: 200px;
+    background-color: chocolate;
+    order: 3;
+}
+.dead
+{
+    width: 200px;
+    height: 200px;
+    background-color: cornflowerblue;
+}
+.omar
+{
+    width: 500px;
+}
+.mar
+{
+    list-style-type: none;
+}
+
+.tabler
+{
+    width: 50%;
+    height:400px;
+;
+    margin: auto;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    position: relative;
+    margin-bottom: 15px;
+   border: solid 4px black;
+
+}
+.name
+{
+    border-bottom: 3px solid black;
+    background-color: chartreuse;
+    color: dimgrey;
+}
+
+
+
+
+
+.tabler::before
+{
+    content:"" ;
+    width: 2px;
+    height: 373px;
+    position: absolute;
+    top: 28px;
+    right: 180px;
+    background-color: burlywood;
+}
+
+
+.tabler::after
+{
+    content:"" ;
+    width: 2px;
+    height: 373px;
+    position: absolute;
+    top: 25px;
+    left: 150px;
+    background-color: firebrick;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
